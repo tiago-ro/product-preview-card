@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root{
+    --dark-cian: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    
+    --dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish: hsl(228, 12%, 48%);
+    
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Fraunces', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--cream);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+main{
+    background-color: white;
+    width: 90vw;
+    min-height: 93vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img{
+    max-width: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 55vh;
+    padding: 20px ;
+}
+#perfume{
+    font-size: 0.9em;
+    color: var(--dark-cian);
+    letter-spacing: 0.2em;   
+    font-family: var(--font1);
+}
+h1{
+    line-height: 1em;
+    font-size: 2em;
+    font-family: var(--font2);    
+}
+#desc{
+    color: var(--dark-grayish);
+    font-family: var(--font1);
+    line-height: 1.6em;
+    font-size: 0.89em;
+    
+}
+span{
+    font-size: 2em;
+    color: var(--dark-cian);
+    font-family: var(--font2);
+}
+sup{
+    margin-left: 0.8em;
+    font-size: 1.1em;
+    color: var(--dark-grayish);
+}
+a{
+    font-family: var(--font1);
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--dark-cian);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: hsl(162, 48%, 21%) ;
+    cursor: pointer;
+}
+svg{
+    vertical-align: text-bottom;
+    margin-right: 0.5em; 
+}
+
+@media screen and (min-width: 376px) {
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 580px;
+        min-height: 50vh;
+    }
+    div.img{
+        width: 50%;
+    }
+    
+    aside{
+        width: 50%;
+        padding: 25px;    
+    }
+    h1{
+        text-align: left;
+    }
+    img{
+        height: 100%;    
+        width: 100%;        
+    }
+}
