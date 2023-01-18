@@ -31,11 +31,6 @@ Users should be able to:
 - Solution URL: [https://github.com/tiago-ro/product-preview-card](https://github.com/tiago-ro/product-preview-card)
 - Live Site URL: [https://tiago-ro.github.io/product-preview-card](https://tiago-ro.github.io/product-preview-card)
 
-https://github.com/tiago-ro/QR-code-component
-
-https://tiago-ro.github.io/QR-code-component/ page
-
-
 
 ## My process
 
